@@ -1,0 +1,289 @@
+	/*
+	Comment
+*/
+
+a { /* Comment */ color: /* Comment */ Red; }
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+
+.TestClass {
+	color: rgb(160, 246, 255);
+	background-color: White; 
+	text-align: left;
+}
+
+.navbar {
+	background:lightgrey;
+    width: 100%;
+    padding: 10px 0;
+    font-family:Dancing Script;
+  	
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar  .navbar-nav li a{
+	color:black;
+	font-size:1rem;
+	font-weight:700;
+	cursor:pointer;	
+	display:block;
+	margin-left: 25px;
+}
+
+.navbar  .navbar-nav li .active{
+	background-color:black;
+    color:rgb(160, 246, 255);
+	font-size:18px;
+	font-weight:700;	
+}
+.navbar  .navbar-nav li :hover{
+	background-color:black;
+    color:rgb(160, 246, 255);
+	font-size:1rem;
+	font-weight:700;	
+}
+.navbar-brand{
+	color:black;
+	font-size:1.25rem;
+	font-weight:700;
+	cursor:pointer;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.main{
+	
+	background-size:cover;
+	height:98vh;
+	width:100%;
+}
+.main h1 {
+    color:rgba(162, 250, 255);
+	font-family: 'Dancing Script', cursive;
+	font-size:4rem;
+	font-thick:5px;
+}
+.main h3{
+	color:white;
+	font-family: 'BhuTuka Expanded One', cursive;
+	text-transform:uppercase;
+	overflow: hidden; 
+	width:60%;
+	font-style:italic;
+	
+}
+
+
+
+
+
+
+
+
+.img-fluid
+{
+-webkit-box-shadow: 18px 20px 15px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 20px 15px 3px rgba(0,0,0,0.75);
+box-shadow: 18px 20px 15px 3px rgba(0,0,0,0.75);
+}
+.about h1{
+	font-size:3rem;
+	border-bottom:3px solid black;
+	width:40%
+}
+.about h3{
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.progress{
+	height:20px;
+	width:100%;
+	display:flex; 
+	position:relative;
+	border-radius:50px;
+	align-items:center;
+	justify-content:flex-start;
+}
+.progress p{
+	font-family: 'Josefin Sans', sans-serif;
+	padding:4px;
+	color:white;
+	font-weight:bold;
+}
+.pro-value1
+{
+    color:black;
+	animation:load1 3s normal forwards;
+	background-color:blue;
+	border-radius:50px;
+	height:20px;
+	
+}
+@keyframes load1{
+	0%{
+	   width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
+.pro-value2
+{
+    color:black;
+	animation:load2 3s normal forwards;
+	background-color:blue;
+	border-radius:50px;
+	height:20px;
+	
+}
+@keyframes load2{
+	0%{
+	   width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+.pro-value3
+{
+    color:black;
+	animation:load3 3s normal forwards;
+	background-color:blue;
+	border-radius:50px;
+	height:20px;
+	
+}
+@keyframes load3{
+	0%{
+	   width:0%;
+	}
+	100%{
+		width:65%;
+	}
+}
+
+.pro-value4
+{
+    color:black;
+	animation:load4 3s normal forwards;
+	background-color:blue;
+	border-radius:50px;
+	height:20px;
+	
+}
+@keyframes load4{
+	0%{
+	   width:0%;
+	}
+	100%{
+		width:75%;
+	}
+}
+
+.pro-value5
+{
+    color:black;
+	animation:load5 3s normal forwards;
+	background-color:blue;
+	border-radius:50px;
+	height:20px;
+	
+}
+@keyframes load5{
+	0%{
+	   width:0%;
+	}
+	100%{
+		width:40%;
+	}
+}
+
+.title-word {
+font-family: 'Playfair Display', serif;
+  animation: color-animation 4s linear infinite;
+  text-transform:uppercase;
+}
+
+.title-word-1 {
+  --color-1: black;
+  --color-2: lightgrey;
+  --color-3: black;
+}
+
+.title-word-2 {
+  --color-1: lightgrey;
+  --color-2: black;
+  --color-3: black;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+.card{
+	background-color:none;
+	-webkit-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.64);
+-moz-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.64);
+box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.64);
+}
+.circle{
+	border-radius:50%;
+	display:inline-block;
+	padding:12px;
+	background-color:lightgrey;
+    height:70px;
+	width:70px;
+	color:black;
+	margin-bottom:20px;
+}
+.card:hover .circle{
+    color:white;
+	background-color:black;
+	transition:0.5s;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+.tab-content{
+  background: linear-gradient(-45deg,black, white,#e6ecff,black);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  padding: 15px;
+  border-radius: 10px 50px;
+}
+
+.circle:hover{
+    color:white;
+	background-color:black;
+	transition:0.5s;
+	cursor:pointer;
+}
+
+
+
+
+
