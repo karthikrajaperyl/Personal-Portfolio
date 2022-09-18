@@ -10,6 +10,14 @@ a { /* Comment */ color: /* Comment */ Red; }
 
 }
 
+
+html,body{
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
+
+
 .TestClass {
 	color: rgb(160, 246, 255);
 	background-color: White; 
